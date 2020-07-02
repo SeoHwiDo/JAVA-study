@@ -1,0 +1,21 @@
+package week9;
+import java.util.*;		
+public enum Week {LOGIN_SUCCESS,LOGIN_FAILED}
+	
+
+
+public static void main(String[]args) {
+	Scanner in =new Scanner(System.in);
+	int pass=1234;
+	Week week=null;
+	System.out.print("pass>>");
+	int answer=in.nextInt();
+	
+	if(answer==pass) {
+		week=Week.LOGIN_SUCCESS;
+	}
+	else {
+		week=Week.LOGIN_FAILED;
+	}
+	System.out.println(week);
+}}

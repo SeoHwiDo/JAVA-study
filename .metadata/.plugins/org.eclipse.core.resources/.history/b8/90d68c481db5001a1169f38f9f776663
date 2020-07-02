@@ -1,0 +1,10 @@
+package week9;
+
+public enum Week {
+	ABC,DEF,GHI;
+
+public static void main(String[]args) {
+	Week week=null;
+	week=Week.ABC;
+
+}}
